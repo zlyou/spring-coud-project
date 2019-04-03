@@ -1,0 +1,24 @@
+server:
+  port: 2221
+
+spring:
+  application:
+    name: service-client
+  redis:
+    database: 0
+    host: 120.27.18.135
+    password: 123456
+    port: 6379
+    timeout: 3600
+    jedis:
+      shutdown-timeout: 3600
+      pool:
+        max-wait: -1
+        max-active: 300
+        max-idle: 8
+        min-idle: 2
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://10.88.37.242:2222/eureka/
