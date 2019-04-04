@@ -13,6 +13,7 @@
     <artifactId>service-eureka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>service-eureka</name>
+    <packaging>jar</packaging>
     <description>eureka for Spring Boot</description>
 
     <properties>
